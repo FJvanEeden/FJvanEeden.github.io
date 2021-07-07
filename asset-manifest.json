@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FJvanEeden/react-portfolio-app/static/css/main.a617e044.chunk.css",
+    "main.js": "/FJvanEeden/react-portfolio-app/static/js/main.495199eb.chunk.js",
+    "main.js.map": "/FJvanEeden/react-portfolio-app/static/js/main.495199eb.chunk.js.map",
+    "runtime-main.js": "/FJvanEeden/react-portfolio-app/static/js/runtime-main.3658035d.js",
+    "runtime-main.js.map": "/FJvanEeden/react-portfolio-app/static/js/runtime-main.3658035d.js.map",
+    "static/js/2.3b145414.chunk.js": "/FJvanEeden/react-portfolio-app/static/js/2.3b145414.chunk.js",
+    "static/js/2.3b145414.chunk.js.map": "/FJvanEeden/react-portfolio-app/static/js/2.3b145414.chunk.js.map",
+    "static/js/3.2a9bae10.chunk.js": "/FJvanEeden/react-portfolio-app/static/js/3.2a9bae10.chunk.js",
+    "static/js/3.2a9bae10.chunk.js.map": "/FJvanEeden/react-portfolio-app/static/js/3.2a9bae10.chunk.js.map",
+    "index.html": "/FJvanEeden/react-portfolio-app/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/FJvanEeden/react-portfolio-app/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.3b145414.chunk.js.LICENSE.txt": "/FJvanEeden/react-portfolio-app/static/js/2.3b145414.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/FJvanEeden/react-portfolio-app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3658035d.js",
+    "static/js/2.3b145414.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.495199eb.chunk.js"
+  ]
+}
