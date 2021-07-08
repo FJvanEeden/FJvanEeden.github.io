@@ -1,37 +1,36 @@
+import React from 'react';
+import logo from './logo.svg';
+// Import the BrowserRouter, Route and Link components
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Projects from './Projects.js'; 
+import Articles from './Articles.js'; 
+import About from './About.js'; 
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import About from './About';
-import Home from './Home';
-import External from './External';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <div>
-        <div className="menu">
-          <Link to="/">Home</Link>  
-          <Link to="/about">About</Link> 
-          <Link to="/external">External</Link>
+
+    <BrowserRouter>
+      <div className="App">
+  
+        <Route exact path="/" component={Projects} />
+        <Route path="/articles" component={Articles} />
+        <Route path="/about" component={About} />
+  
+        <div className="navigation">
+          <img src={logo} className="logo-image" alt="Logo Image" />
+          <div className="navigation-sub">
+                                          
+            <Link to="/" className="item">Projects</Link>
+            <Link to="/articles" className="item">Articles</Link>
+            <Link to="/about" className="item">About</Link>
+  
+          </div>
         </div>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/external">
-            <External />
-          </Route>
-        </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
+
   );
 }
-
+ 
 export default App;
