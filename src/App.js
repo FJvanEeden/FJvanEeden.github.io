@@ -12,11 +12,13 @@ function App() {
     <BrowserRouter>
       <div className="App">
   
+        {/* page routes */}
         <Route exact path="/" baseName={process.env.PUBLIC_URL}/>
         <Route exact path="/projects" component={Projects} />
         <Route path="/articles" component={Articles} />
         <Route path="/about" component={About} />
 
+        {/* navigation bar */}
         <div className="navigation">
           {/* <img src={logo} className="logo-image" alt="Logo Image" /> */}
           <div className="navigation-sub">
@@ -27,6 +29,7 @@ function App() {
           </div>
         </div>
 
+        {/* spinning logo */}
         <img src={logo} className="App-logo" alt="logo" />
 
       </div>
