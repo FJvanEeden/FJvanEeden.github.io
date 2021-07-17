@@ -1,3 +1,8 @@
+SPA, no pages, location sets:
+
+![image](https://user-images.githubusercontent.com/36030557/126037832-41bdc814-e9ac-49b7-b831-5dc932186f47.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
