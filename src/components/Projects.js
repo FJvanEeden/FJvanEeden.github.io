@@ -1,18 +1,20 @@
 
 import React from "react"
-import Thumbnail from './components/Thumbnail.js';
-import './App.css';
+import Thumbnail from './Thumbnail';
+import '../App.css';
+import logo from '../logo.svg';
  
 function Projects(props) {
   return (
     <div>
       <h1>Projects</h1>
-      {/* <Thumbnail
-        link="" // route
-        image=""
+
+      <Thumbnail
+        link="./projects"
+        image={logo}
         title=""
         category=""
-      /> */}
+      />
     </div>
   )
 }
