@@ -1,3 +1,8 @@
+Static site with multiple pages:
+
+![image](https://user-images.githubusercontent.com/36030557/126037146-36b9a296-b534-4cea-a0c4-28136b4a23f2.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
