@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
-import Projects from './Projects.js'; 
-import Articles from './Articles.js'; 
-import About from './About.js'; 
+import Projects from './components/Projects.js'; 
+import Articles from './components/Articles.js'; 
+import About from './components/About.js'; 
 import './App.css';
 
 function App() {
