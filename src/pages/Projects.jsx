@@ -1,6 +1,6 @@
 
 import React from "react"
-import Thumbnail from './Thumbnail';
+import Thumbnail from '../components/Thumbnail';
 import '../App.css';
 import logo from '../logo.svg';
  
